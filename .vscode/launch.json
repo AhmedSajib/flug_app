@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flug_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flug_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Flutter",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args":[ "--web-renderer","html"],
+        }
+    ]
+}
